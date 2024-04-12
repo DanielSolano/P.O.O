@@ -54,6 +54,7 @@ char Menu::Seleccionar()
         char selec;
         cout << "Seleccione una opcion: ";
         cin >> selec;
+        cin.ignore(1024, '\n');
         // Buscar la opcion seleccionada
         auto it = opciones.find(selec);
         if (it != opciones.end())
