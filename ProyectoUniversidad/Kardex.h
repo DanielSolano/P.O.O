@@ -11,7 +11,7 @@ class Kardex
         vector<Calificacion> calificaciones;
         Estudiante* estudiante;
     public:
-        Kardex(Estudiante* estudiante = nullptr) = { this->estudiante = estudiante; };
+        Kardex(Estudiante* est = nullptr) { this->estudiante = est; };
         double GetPromedio()const { return promedio; }
         int GetCreditos()const { return creditos; }
         
