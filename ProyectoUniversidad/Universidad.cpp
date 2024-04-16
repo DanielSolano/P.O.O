@@ -31,6 +31,7 @@ void Universidad::RegistrarCalificacion(int matricula, int valor, int clave, dou
 }
 
 void Universidad::ReporteEstudiantes() const
+
 {
     cout <<"-------------------------------------------------------------------------------" << endl;
     cout << "Matricula" << setw(50) << left << "Nombre";
