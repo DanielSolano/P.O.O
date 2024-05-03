@@ -19,8 +19,11 @@ public:
     Universidad(string nombre = "WABECE") { this->nombre = nombre; }
     string GetNombre() const { return nombre; }
     Estudiante *RegistrarEstudiante(string nombre, string carrera);
-    Estudiante *RegistrarMateria(string nombre, int creditos,
-                                 bool obligatoria = true, Materia::Etapa etapa = Materia::BASICA);
-    void RegistrarCalificacion(int matricula, int valor,int clave, double calif);
-    void ReporteEstudiantes()const;
+    Materia* RegistrarMateria(string nombre, int creditos,
+		bool obligatoria = true, Materia::Etapa etapa = Materia::BASICA);
+    void RegistrarCalificacion(int matricula, int clave, int valor);
+    void ReporteEstudiantes() const;
+    void ReporteMaterias() const;
+    ~Universidad();
+    Kardex GetKardex(int matricula);
 };

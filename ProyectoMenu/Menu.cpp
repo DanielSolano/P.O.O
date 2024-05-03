@@ -1,78 +1,48 @@
 #include "Menu.h"
-#include <iostream>
-
-using std::cin;
+#include<iostream>
 using std::cout;
+using std::cin;
 using std::endl;
-
-Menu::Menu(string titulo)
+void Menu::AgregarOpcion(Opcion la_opcion)
 {
-    this->titulo = titulo;
-}
-
-void Menu::Agregar(Opcion la_opcion)
-{
-    // Agregamos la opcion al mapa
-    if (opciones.find(la_opcion.GetTecla()) == opciones.end())
-    {
-        opciones.insert({la_opcion.GetTecla(), la_opcion});
-        exit_key = la_opcion.GetTecla();
-    }
-    else
-    {
-        throw "La opcion ya existe en el menu";
-    }
-}
-
-void Menu::Eliminar(char tecla)
-{
-    auto it = opciones.find(tecla);
-    if (it != opciones.end())
-    {
-        opciones.erase(it);
-    }
-    else
-    {
-        throw "La opcion no existe en el menu";
-    }
+	opciones[la_opcion.GetTecla()] = la_opcion;
+	exit_key = la_opcion.GetTecla();
 }
 
 void Menu::Desplegar()
 {
-    cout << titulo << endl;
-    // Desplegamos opciones
-    for (auto &par : opciones)
-    {
-        par.second.Desplegar();
-    }
+	cout << titulo << endl;
+	for (auto& po : opciones)
+		po.second.Desplegar();
 }
 
-char Menu::Seleccionar()
+char Menu::SeleccionarOpcion()
 {
-    while (true)
-    {
-        char selec;
-        cout << "Seleccione una opcion: ";
-        cin >> selec;
-        cin.ignore(1024, '\n');
-        // Buscar la opcion seleccionada
-        auto it = opciones.find(selec);
-        if (it != opciones.end())
-        {
-            (*it).second.Ejecutar();
-            return selec;
-        }
-        else
-        {
-            cout << "Opcion no valida" << endl;
-        }
-    }
+	//debemos leer la tecla que presione el usuario
+	//y buscar la opcion correspondiente para
+	//ejecutarla
+	char t;
+	while (true) {
+		cout << "Seleccione una opcion: ";
+		cin >> t;
+		cin.ignore(1024, '\n');
+		auto it = opciones.find(t);
+		if (it != opciones.end()) {
+			//ejecutamos second en it
+			(*it).second.Ejecutar();
+			return t;
+		}
+		else {
+			cout << "Esa opcion no existe... fijate!" << endl;
+		}
+	}
+	return t;
 }
 
 void Menu::Ejecutar()
 {
-    do{
-        system("cls");
-        Desplegar();
-    }while(Seleccionar() != exit_key);
+	do {
+		system("cls");
+		Desplegar();
+	}while(SeleccionarOpcion()!=exit_key);
 }

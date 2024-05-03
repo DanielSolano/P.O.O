@@ -1,4 +1,5 @@
 #include "Kardex.h"
+#include "Estudiante.h"
 #include <sstream>
 #include <iomanip>
 
@@ -11,7 +12,9 @@ using std::endl;
 string Kardex::ToString() const
 {
     std::ostringstream out;
-    // ! Imprimir informacion del estudiante Pendiente
+    out << "Matricula" << estudiante->GetMatricula() << endl;
+    out << setw(50) << left << "Nombre" << estudiante->GetNombre() << endl;
+    out << "Carrera" << estudiante->GetCarrera() << endl;
     
     out << "---------------------------------------------------------------------------" << endl;
     out << "Clave ";

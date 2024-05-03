@@ -1,62 +1,49 @@
-#include <iostream>
-#include "Menu.h"
-#include <conio.h>
+// ProyectoMenu.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
 
+#include <iostream>
+#include<conio.h>
+#include"MenuI.h"
 using std::cout;
 using std::endl;
-
-void Listado()
-{
-    cout << "Archivos en el folder" << endl;
-    system("dir");
-    _getch();
+void Opcion1() {
+	cout << "Archivos en el folder: " << endl;
+	system("dir");
+	_getch();
 }
-
-void ConfiguracionIP()
-{
-    cout << "Configuracion IP: " << endl;
-    system("ipconfig");
-    _getch();
+void Opcion2() {
+	cout << "Configuracion de red: " << endl;
+	system("ipconfig /all");
+	_getch();
 }
-
-void ConexionesActivas()
-{
-    cout << "Conexiones activas: " << endl;
-    system("netstat");
-    _getch();
+void Opcion3() {
+	MenuI submenu("Otras opciones");
+	submenu.AgregarOpcion({ '1',"Subpcion 1",
+		[]() {cout << "Ejecutando subopcion 1..." << endl; _getch(); } });
+	submenu.AgregarOpcion({ '2',"Subpcion 2",
+		[]() {cout << "Ejecutando subopcion 1..." << endl; _getch(); } });
+	submenu.AgregarOpcion({ '3',"Subpcion 3",
+		[]() {cout << "Ejecutando subopcion 3..." << endl; _getch(); } });
+    submenu.AgregarOpcion({ '4',"Regresar",
+		[]() {} });
+	submenu.Ejecutar();
 }
-
-void Configuracion()
-{
-    Menu submenu("Configuracion");
-    submenu.Agregar({'1', "Subopcion 1", {[]()
-                                          {system("cls");cout << "Ejecutando subopcion 1" << endl; _getch(); }}});
-    submenu.Agregar({'2', "Subopcion 2", {[]()
-                                          {system("cls");cout << "Ejecutando subopcion 2" << endl; _getch(); }}});
-    submenu.Agregar({'3', "Subopcion 3", {[]()
-                                          {system("cls");cout << "Ejecutando subopcion 3" << endl; _getch(); }}});
-    submenu.Agregar({'4', "Regresar", {[]()
-                                       {system("cls");cout << "Regresando..." << endl; _getch(); }}});
-    submenu.Ejecutar();
-}
-
 int main()
 {
-    Menu el_menu("Menu de prueba");
-    el_menu.Agregar({'1', "Ver listado de archivos", Listado});
-    el_menu.Agregar({'2', "Ver configuracion IP", ConfiguracionIP});
-    el_menu.Agregar({'3', "Ver conexiones activas", ConexionesActivas});
-    el_menu.Agregar({'4', "Ver configuracion", Configuracion});
-    el_menu.Agregar({'5', "Salir", {[]()
-                                    { cout << "Saliendo..." << endl; }}});
 
-    /*
-    do
-    {
-        system("cls");
-        el_menu.Desplegar();
-    } while (el_menu.Seleccionar() != '5');
-    */
+	
+	
+	MenuI el_menu;
+	//agregamos las opciones
+	el_menu.AgregarOpcion({ '1',"Ver listado de archivos",Opcion1 });
+	el_menu.AgregarOpcion({ '2',"Ver configuracion de red",Opcion2 });
+	el_menu.AgregarOpcion({ '3',"Otras opciones",Opcion3 });
+	el_menu.AgregarOpcion({ '4',"Salir",[]() {cout << "Adios.." << endl; } });
+	/*do {
+		el_menu.Desplegar();
+	}while(el_menu.SeleccionarOpcion()!='4');
+	*/
+	el_menu.Ejecutar();
 
-    el_menu.Ejecutar();
 }
+
