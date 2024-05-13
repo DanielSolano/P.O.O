@@ -1,0 +1,4 @@
+﻿  LOL2.cpp
+C:\Users\Mitillo\Universidad\4to. Semestre\P.O.O\LOL2\LOL2.cpp(28,42): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Mitillo\Universidad\4to. Semestre\P.O.O\LOL2\LOL2.cpp(62,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  LOL2.vcxproj -> C:\Users\Mitillo\Universidad\4to. Semestre\P.O.O\LOL2\x64\Debug\LOL2.exe

@@ -15,6 +15,7 @@ int main()
     CuentaHabiente* haro = el_banco->CrearCuentaHabiente("Haro", "HARO040126HBCCLA1");
 
     CuentaCheques* cuentaMiti = el_banco->CrearCuentaCheques(miti, 1000);
+    CuentaCheques* cuentaMiti2 = el_banco->CrearCuentaCheques(miti, 1000);
     CuentaCheques* cuentaDanna = el_banco->CrearCuentaCheques(danna, 1000);
     CuentaCheques* cuentaHaro = el_banco->CrearCuentaCheques(haro, 1000);
 
@@ -63,8 +64,7 @@ int main()
                    } });
 
     menu.AgregarOpcion({ '4', "Imprimir Cuenta", [&]()
-                  {
-                    
+                  { 
                         int cuenta;
                         cout << "Ingrese el numero de cuenta: ";
                         cin >> cuenta;
