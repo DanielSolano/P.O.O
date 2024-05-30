@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\LOL2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:LOL2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Gargola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Gargola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Gargola.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Gargola.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Mago.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Mago.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Gargola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Gargola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Volador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Volador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Mago.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Mago.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\LOL2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:LOL2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Tanque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Mago.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Mago.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Mago.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Mago.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Tanque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Tanque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94B96268-E9C9-4B0C-8000-5652384DF782}|LOL2.vcxproj|solutionrelative:Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Volador.h",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Volador.h",
               "RelativeDocumentMoniker": "Volador.h",
@@ -80,39 +80,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Gargola.h",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Gargola.h",
               "RelativeDocumentMoniker": "Gargola.h",
               "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Gargola.h",
               "RelativeToolTip": "Gargola.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAiAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-08T16:50:18.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LOL2.cpp",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\LOL2.cpp",
               "RelativeDocumentMoniker": "LOL2.cpp",
               "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\LOL2.cpp",
               "RelativeToolTip": "LOL2.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwE8AAAADAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwE8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-08T16:24:50.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Mago.cpp",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Mago.cpp",
               "RelativeDocumentMoniker": "Mago.cpp",
               "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Mago.cpp",
               "RelativeToolTip": "Mago.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAACMAAAASAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-08T16:24:25.938Z",
               "EditorCaption": ""
@@ -132,54 +132,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Enemigo.cpp",
-              "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.cpp",
-              "RelativeDocumentMoniker": "Enemigo.cpp",
-              "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.cpp",
-              "RelativeToolTip": "Enemigo.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-08T16:24:21.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Tanque.h",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.h",
               "RelativeDocumentMoniker": "Tanque.h",
               "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.h",
               "RelativeToolTip": "Tanque.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-08T16:24:10.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Tanque.cpp",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.cpp",
               "RelativeDocumentMoniker": "Tanque.cpp",
               "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Tanque.cpp",
               "RelativeToolTip": "Tanque.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAqwCgAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-08T16:24:31.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Enemigo.h",
               "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.h",
               "RelativeDocumentMoniker": "Enemigo.h",
               "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.h",
               "RelativeToolTip": "Enemigo.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-08T16:23:59.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enemigo.cpp",
+              "DocumentMoniker": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.cpp",
+              "RelativeDocumentMoniker": "Enemigo.cpp",
+              "ToolTip": "C:\\Users\\Mitillo\\Universidad\\4to. Semestre\\P.O.O\\LOL2\\Enemigo.cpp",
+              "RelativeToolTip": "Enemigo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T16:24:21.233Z",
               "EditorCaption": ""
             }
           ]
